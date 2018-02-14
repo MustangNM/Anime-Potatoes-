@@ -1,5 +1,5 @@
 import mediaa
-import fresh_tomatoes
+import index
 
 # list of movies
 aSilentVoice = mediaa.Movie("A Silent Voice", "Great Movie", "silent.jpg",
@@ -21,4 +21,4 @@ movies = [aSilentVoice, KimiNoNawa, TheLast, BorutoTheMovie,
           WolfChildren,FiveCent]
 
 # Opening the website
-fresh_tomatoes.open_movies_page(movies)
+index.open_movies_page(movies)
